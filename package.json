@@ -1,0 +1,18 @@
+{
+  "version": "0.0.0.1",
+  "devDependencies": {
+    "@rollup/plugin-run": "^2.0.2",
+    "@types/node": "^13.1.6",
+    "@types/prettier": "^2.3.2",
+    "markdown-to-jsx": "^7.1.3",
+    "preact": "^10.5.14",
+    "preact-render-to-string": "^5.1.19",
+    "prettier": "^2.3.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "bs": "browser-sync docs -w --no-open --port 4000 --no-inject-changes --directory",
+    "dev": "rollup -c -w"
+  }
+}
