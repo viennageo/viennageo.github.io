@@ -32,7 +32,7 @@ export let MainPage = () => {
 
       <section class="logo">
         <div>
-          <img src="/img/viennageo-logo_250px.png" />
+          <img src="/img/viennageo-logo_250px.png" alt="viennageo logo" />
           <h3 class="desktop">the meetup with the logo</h3>
         </div>
       </section>
@@ -68,7 +68,7 @@ export let MainPage = () => {
             </a>
           </div>
         </div>
-        <img class="logo" src="/img/viennageo-logo_250px.png" />
+        <img class="logo" src="/img/viennageo-logo_250px.png" alt="vienna geo logo" />
       </section>
 
       <Meetup title="viennageo #7" topic="frei und bewegt" date="" location="" >
@@ -87,7 +87,7 @@ export let MainPage = () => {
       </Meetup>
 
       <Meetup title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" >
-        <img src="/img/dctreff.jpg" />
+        <img src="/img/dctreff-small.jpg" alt="donaucity treff" width="306" height="203" />
         <article>
           <p>
             wir vollenden die vektor trilogie: nach <i>theorie</i> und <i>unternehmens&shy;praxis</i> beim letzten treffen freuen wir uns heute auf
@@ -103,7 +103,7 @@ export let MainPage = () => {
       </Meetup>
 
       <Meetup title="viennageo #5" date="29.10.2019" topic="vector tiles" location="dc-treff" >
-        <img src="/img/dctreff.jpg" />
+        <img src="/img/dctreff-small.jpg" alt="donaucity treff" width="306" height="203" />
         <article>
           technik in theorie und praxis diesmal. die wohl wichtigste neuerung seit es karten im web gibt: vector tiles.
           <ul>
@@ -116,7 +116,7 @@ export let MainPage = () => {
       </Meetup>
 
       <Meetup title="viennageo #4" date="20.3.2019" topic="alles geo!" location="dc-treff" >
-        <img src="/img/dctreff.jpg" />
+        <img src="/img/dctreff-small.jpg" alt="donaucity treff" width="306" height="203" />
         <article>
           <p>zur krönung der ballsaison treffen wir uns wieder im donau city treff und danken für ein buntes programm:</p>
           <ul>
@@ -134,7 +134,7 @@ export let MainPage = () => {
         topic="computational geometry + topology"
         location="tu wien"
       >
-        <img src="/img/edelsbrunner.jpg" />
+        <img src="/img/edelsbrunner.jpg" alt="herbert edelsbrunner" width="306" height="172" />
         <article>
           <p>
             we are delighted to announce that professor herbert edelsbrunner (institute of science and technology austria) will
@@ -159,7 +159,7 @@ export let MainPage = () => {
       </Meetup>
 
       <Meetup title="viennageo #3" date="19.9.2018" topic="data science + osm" location="dc-treff" >
-        <img src="/img/dctreff.jpg" />
+        <img src="/img/dctreff-small.jpg" alt="donaucity treff" width="306" height="203" />
         <article>
           <p>internationals: we held this meetup in german so far. if there is demand we might switch to english.</p>
           <p>wir treffen uns wieder um 18:00 im donau city treff (direkt neben u1 alte donau) und können auf der terrasse fachlich plaudern - zb über</p>
@@ -172,7 +172,7 @@ export let MainPage = () => {
       </Meetup>
 
       <Meetup title="viennageo #2" date="4.6.2018" topic="linien und räume" location="dc-treff" >
-        <img src="/img/dctreff.jpg" />
+        <img src="/img/dctreff-small.jpg" alt="donaucity treff" width="306" height="203" />
         <article>
           <ul>
             <li>// openstreetmap team wien<br />erzählt über aktuelles aus der lokalen community</li>
@@ -190,8 +190,8 @@ export let MainPage = () => {
         </article>
       </Meetup>
 
-      <Meetup title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" >
-        <img src="/img/meetup1-anita-graser.jpg" />
+      <Meetup title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" width="306" height="230" >
+        <img src="/img/meetup1-anita-graser-small.jpg" />
         <article>
           <ul>
             <li>// willkommen<br />beim geo-meetup! über wiens und österreichs exzellenz auf dem interdisziplinären gebiet "geo" (<i>thomas hulka</i>).</li>
