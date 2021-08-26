@@ -39,14 +39,12 @@ h1 {
 }
 
 h2 {
-    //background: lightsalmon;
-    //  text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 div.logo {
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    //padding-top: 1.5rem;
+    //padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -79,21 +77,21 @@ summary {
     padding-top: 0.25em;
     font-style: italic;
 }
-.date-location{
-  text-align: right;
+.date-location {
+    text-align: right;
 }
 time {
     color: $red;
     //font-size: small;
 }
 address {
-  display: inline;
-  font-style: normal;
-  text-align: right;
-  // background: #555;
-  // color: #fff;
-  // border-radius: 3px;
-  // padding: 0 2px;
+    display: inline;
+    font-style: normal;
+    text-align: right;
+    // background: #555;
+    // color: #fff;
+    // border-radius: 3px;
+    // padding: 0 2px;
 }
 
 section {
@@ -127,6 +125,14 @@ img {
     width: 100%;
     margin: 1rem 0;
 }
-a{
-  color: navy;
+a {
+    color: navy;
 }
+
+// bold header block - might help the eye navigating, but looks a bit hard
+// h2 {
+//     background: #333;
+//     color: white;
+//     padding: 4px;
+//     border-radius: 4px;
+// }
