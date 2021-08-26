@@ -68,6 +68,7 @@ export let MainPage = () => {
             </a>
           </div>
         </div>
+        <img class="logo" src="/img/viennageo-logo_250px.png" />
       </section>
 
       <Meetup title="viennageo #7" topic="frei und bewegt" date="" location="" >

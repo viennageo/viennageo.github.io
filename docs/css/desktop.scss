@@ -3,6 +3,7 @@ $sandy: #e6ded4; // nice light sand brown color
 body {
     background-color: $sandy;
     max-width: 1024px;
+    padding-top: 4em;
     margin-left: auto;
     margin-right: auto;
     font-size: 115%;
@@ -53,6 +54,10 @@ section.meetup {
     left: -1rem;
 }
 
+section.logo {
+    display: none;
+}
+
 section.viennageo {
     display: grid;
     gap: 4ch;
@@ -75,7 +80,7 @@ h1 {
 }
 
 .themen {
-  font-weight: bold;
-  margin: 0.5em 0ch;
-  line-height: 1.5;
+    font-weight: bold;
+    margin: 0.5em 0ch;
+    line-height: 1.5;
 }
