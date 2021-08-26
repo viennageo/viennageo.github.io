@@ -125,17 +125,20 @@ export let MainPage = () => {
         <img src="/img/edelsbrunner.jpg" />
         <p>
           we are delighted to announce that professor herbert edelsbrunner (institute of science and technology austria) will
-          visit our group on november 15th! computational geometry is the foundation of our doing. we are very lucky that one of
+          visit our group on november 15th!
+        </p>
+        <p>
+          computational geometry is the foundation of our doing. we are very lucky that one of
           the researchers who shaped the research field is back in austria and generously takes the time to visit us. herbert
           will tell us about his involvement in the evolution of computational geometry and the younger research
           field computational topology, he co-founded. starting from the history of academia he will address the related industry
           and the recent application of computational topology to data analysis.</p>
         <p>this will be interactive - bring your topics + questions.</p>
-        <p>about professor edelsbrunner - professor at the institute of science and technology austria - worldwide
+        <p>about herbert edelsbrunner:<br/>professor at the institute of science and technology austria - worldwide
         leading researcher in computational geometry and topology - founder of raindrop geomagic - wittgensteinpreis 2018 - alan
-        t. waterman award 1991 - http://pub.ist.ac.at/~edels/ - https://en.wikipedia.org/wiki/Herbert_Edelsbrunner research
-        papers at http://pub.ist.ac.at/~edels/Papers/
-          </p>
+        t. waterman award 1991 - <a href="http://pub.ist.ac.at/~edels/">homepage</a> - <a href="https://en.wikipedia.org/wiki/Herbert_Edelsbrunner">wikipedia</a> -
+        <a href="http://pub.ist.ac.at/~edels/Papers/">research papers</a>
+        </p>
         <p>
           herbert is austrian. his academic live however was and is in english, so he prefers to talk in english with us.
           </p>

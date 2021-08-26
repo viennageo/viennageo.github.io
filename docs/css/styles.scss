@@ -1,16 +1,12 @@
 $red: rgb(187, 0, 0);
-
-// nice light sand brown color
-//     background: #e6ded4;
+$sandy: #e6ded4; // nice light sand brown color
 
 body {
     font-family: 'Roboto Slab';
-
     font-size: 105%;
-    max-width: 1024px;
-    margin: auto;
-    //letter-spacing: 0.5px;
-    word-break: break-word; // superlong links should not create horizontal scrollbar
+
+    max-width: 1024px; // responsive
+    margin: auto; // responsive
 }
 
 h1,
@@ -42,7 +38,7 @@ h1 {
 }
 
 h2 {
-  letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 div.logo {
@@ -110,7 +106,7 @@ li::first-line {
 }
 img {
     width: 100%;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
 }
 a {
     color: navy;
@@ -194,9 +190,20 @@ a {
     white-space: nowrap;
 }
 
-section:nth-child(2n+1) {
+section:nth-child(2n + 1) {
     background: #e6ded4;
 }
- img + p{
-   margin-top: 0;
- }
+img + p {
+    margin-top: 0;
+}
+
+body{
+  //background-color: green;
+}
+
+// html {
+//     scroll-snap-type: y proximity;
+// }
+section {
+    scroll-snap-align: start;
+}
