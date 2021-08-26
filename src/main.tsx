@@ -164,10 +164,10 @@ export let MainPage = () => {
         <MeetupHeader title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" />
         <img src="/img/meetup1-anita-graser.jpg" />
         <ul>
-          <li>// thomas hulka<br />willkommen beim geo-meetup! wiens und österreichs exzellenz auf dem interdisziplinären gebiet "geo"</li>
-          <li>// wolfgang jörg,<br />vienna gis koordinator (stadt wien), stellt uns den wichtigsten öffentlichen geodatendienst vor, <a href="https://basemap.at/">basemap.at</a></li>
-          <li>// anita graser<br />berichtet über ihre forschung in der bewegungsdatenanalyse</li>
-          <li>// robert koch<br />erzählt von der <a href="https://www.fossgis-konferenz.de/2018/">fossgis 2018</a>
+          <li>// willkommen<br />beim geo-meetup! über wiens und österreichs exzellenz auf dem interdisziplinären gebiet "geo" (<i>thomas hulka</i>)</li>
+          <li>// basemap.at<br /><i>wolfgang jörg</i>, vienna gis koordinator (stadt wien), stellt uns den wichtigsten öffentlichen geodatendienst vor. <a href="https://basemap.at/">basemap.at</a></li>
+          <li>// bewegungsdatenanalyse<br /><i>anita graser</i>, forscherin und österreichs wichtigste geo - open source aktivistin berichtet über ihre forschung am ait.</li>
+          <li>// fossgis 2018<br /><i>robert koch</i>, entwickler von <a href="https://www.osmhydrant.org/">osmhydrant</a> erzählt über die <a href="https://www.fossgis-konferenz.de/2018/">fossgis 2018</a>
           </li>
         </ul>
       </section>
