@@ -32,8 +32,7 @@ export let MainPage = () => {
 
       <section class="logo">
         <div>
-          <img src="/img/viennageo-logo_250px.png" alt="viennageo logo" />
-          <h3 class="desktop">the meetup with the logo</h3>
+          <img src="/img/viennageo-logo_250px.png" alt="viennageo logo" width="250" height="250" />
         </div>
       </section>
 
@@ -54,7 +53,7 @@ export let MainPage = () => {
           <p>um über die treffen informiert zu werden folgt uns auf twitter oder schreibt ein email um in den verteiler aufgenommen zu werden:</p>
           <br />
           <div class="twitter">
-            <a target="_blank" class="twitter-btn" title="follow @viennageomeetup on twitter" href="https://twitter.com/viennageomeetup">
+            <a target="_blank" class="twitter-btn" title="follow @viennageomeetup on twitter" href="https://twitter.com/viennageomeetup" rel="noopener">
               <i></i>
               <span class="label">@viennageomeetup</span>
             </a>
@@ -68,7 +67,7 @@ export let MainPage = () => {
             </a>
           </div>
         </div>
-        <img class="logo" src="/img/viennageo-logo_250px.png" alt="vienna geo logo" />
+        <img class="logo" src="/img/viennageo-logo_250px.png" alt="vienna geo logo" width="250" height="250" />
       </section>
 
       <Meetup title="viennageo #7" topic="frei und bewegt" date="" location="" >
