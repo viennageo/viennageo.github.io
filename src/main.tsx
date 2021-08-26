@@ -19,6 +19,16 @@ let MeetupHeader = ({ title, date, topic, location }) => (
   </Fragment>
 )
 
+let PlaceQuestionMark = () =>
+  <div class="placequestionmark">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 365 560" enable-background="new 0 0 365 560" width="100%" height="100%">
+        <g>
+          <path fill="#bb0000" d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9 C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z " />
+        </g>
+      </svg>
+    <div>?</div>
+  </div>
+
 export let MainPage = () => {
   return (
     <article>
@@ -49,6 +59,15 @@ export let MainPage = () => {
       </section>
       <section>
         <h1>bisherige treffen</h1>
+
+        <MeetupHeader title="viennageo #7" date="irgendwann" topic="frei und bewegt" location="irgendwo" />
+        <PlaceQuestionMark />
+        <p>wenns wieder geht</p>
+        <ul>
+          <li>111</li>
+          <li>222</li>
+          <li>333</li>
+        </ul>
 
         <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" />
         <img src="/img/dctreff.jpg" />

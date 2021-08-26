@@ -136,3 +136,23 @@ a {
 //     padding: 4px;
 //     border-radius: 4px;
 // }
+
+.placequestionmark {
+    position: relative; // stacking context
+    text-align: center;
+    svg {
+        max-width: 200px;
+    }
+    div {
+        position: absolute;
+        top: -70px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        font-size: 200px;
+        font-weight: bold;
+        display: grid;
+        color: white;
+        place-content: center;
+    }
+}
