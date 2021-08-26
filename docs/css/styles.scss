@@ -16,7 +16,6 @@ h3,
 h4,
 h5,
 p,
-summary,
 ul,
 li {
     margin: 0;
@@ -29,10 +28,6 @@ li,
 p {
     line-height: 1.5;
     margin-top: 0.5em;
-}
-summary {
-    padding-top: 0.5em;
-    font-style: italic;
 }
 
 h1 {
@@ -75,15 +70,26 @@ p.aboutlink {
     padding: 0 8px;
 }
 
-time {
-    color: $red;
-    font-size: small;
-}
-
 h2 {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+}
+summary {
+    padding-top: 0.25em;
+    font-style: italic;
+}
+.date-location{
+  text-align: right;
+}
+time {
+    color: $red;
+    //font-size: small;
+}
+address {
+  display: inline;
+  //font-size: small;
+  text-align: right;
 }
 
 section {
@@ -105,7 +111,6 @@ section:nth-child(3) {
 ul {
     list-style: none;
     padding: 0;
-    margin-top: 1.5rem;
 }
 li::first-line {
     font-weight: bold;
@@ -117,4 +122,7 @@ li::first-line {
 img {
     width: 100%;
     margin: 1rem 0;
+}
+a{
+  color: navy;
 }

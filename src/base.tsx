@@ -11,8 +11,8 @@ export function render(h: () => JSX.Element, filename, title) {
     let html = fs.readFileSync("./src/template.html").toString()
     let page = rendertostring(h())
     html = html.replace("{children}", page).replace("{title}", title)
-    //let htmlf = prettier.format(html, { parser: 'html' })
-    let htmlf = html
+    let htmlf = prettier.format(html, { parser: 'html' })
+    //let htmlf = html
     filename = './docs/' + filename
     fs.mkdirSync(path.dirname(filename), { recursive: true })
     fs.writeFileSync(filename, htmlf)

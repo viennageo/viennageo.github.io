@@ -8,12 +8,14 @@ let Tags = ({ children }) => (
     </Fragment>
 )
 
-let MeetupHeader = ({ title, date, topic }) => (
+let MeetupHeader = ({ title, date, topic, location }) => (
     <Fragment>
-        <h2>
-            <span>{title}</span> <time>{date}</time>
-        </h2>
+        <h2>{title}</h2>
         <summary>{topic}</summary>
+        <div class="date-location">
+            <address>{location}</address>
+            <time>{date}</time>
+        </div>
     </Fragment>
 )
 
@@ -47,7 +49,7 @@ export let MainPage = () => {
             </section>
             <section>
                 <h1>bisherige treffen</h1>
-                <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles & sotm" />
+                <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles & sotm" location="donaucity-treff" />
                 <ul>
                     <li>
                         // wolfgang jörg <br />
@@ -63,7 +65,7 @@ export let MainPage = () => {
                         berichtet vom mapathon der ärzte ohne grenzen und gibt einen auszug aus der aktuellen osm wochennotiz
                     </li>
                 </ul>
-                <MeetupHeader title="viennageo #5" date="29.10.2019" topic="vector tiles" />
+                <MeetupHeader title="viennageo #5" date="29.10.2019" topic="vector tiles" location="donaucity-treff" />
                 <ul>
                     <li>
                         // markus mayr
@@ -81,7 +83,7 @@ export let MainPage = () => {
                         erläutert die darstellung im web mit postgis + tegola sowie mit mbtiles + tileserver-gl
                     </li>
                 </ul>
-                <MeetupHeader title="viennageo #4" date="20.3.2019" topic="alles geo!" />
+                <MeetupHeader title="viennageo #4" date="20.3.2019" topic="alles geo!" location="donaucity-treff" />
                 <p>zur krönung der ballsaison treffen uns wieder im donau city treff und danken für ein buntes programm:</p>
                 <ul>
                     <li>
@@ -105,7 +107,12 @@ export let MainPage = () => {
                         hirter, murauer und wasser
                     </li>
                 </ul>
-                <MeetupHeader title="herbert edelsbrunner *" date="15.11.2018" topic="computational geometry + topology" />
+                <MeetupHeader
+                    title="herbert edelsbrunner *"
+                    date="15.11.2018"
+                    topic="computational geometry + topology"
+                    location="tu wien"
+                />
                 <div class="edelsbrunner">
                     we are delighted to announce that professor herbert edelsbrunner (institute of science and technology austria) will
                     visit our group on november 15th! computational geometry is the foundation of our doing. we are very lucky that one of
@@ -118,26 +125,43 @@ export let MainPage = () => {
                     t. waterman award 1991 - http://pub.ist.ac.at/~edels/ - https://en.wikipedia.org/wiki/Herbert_Edelsbrunner research
                     papers at http://pub.ist.ac.at/~edels/Papers/ the meetup is in english this time
                 </div>
-                <MeetupHeader title="viennageo #3" date="19.9.2018" topic="????????" />
+                <MeetupHeader title="viennageo #3" date="19.9.2018" topic="????????" location="donaucity-treff" />
                 <ul>
                     <li>analyse verkehrsnetzgeometrie</li>
                     <li>osm datenmodell</li>
                     <li>sotm 2018 milano</li>
                 </ul>
-                <MeetupHeader title="viennageo #2" date="4.6.2018" topic="????????" />
+                <MeetupHeader title="viennageo #2" date="4.6.2018" topic="????????" location="donaucity-treff" />
                 <ul>
                     <li>openstreetmap</li>
                     <li>generalisierung</li>
                     <li>schöne routen</li>
                     <li>wien gibt raum</li>
                 </ul>
-                <MeetupHeader title="viennageo #1" date="10.4.2018" topic="los gehts!" />
+                <MeetupHeader title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" />
                 <img src="/img/meetup1-anita-graser.jpeg" />
                 <ul>
-                    <li>// thomas hulka<br/>willkommen beim geo-meetup! wiens und österreichs exzellenz auf dem interdisziplinären gebiet "geo"</li>
-                    <li>// wolfgang jörg,<br/>vienna gis koordinator (stadt wien), stellt uns den wichtigsten öffentlichen geodatendienst vor, <a href="https://basemap.at/">basemap.at</a></li>
-                    <li>// anita graser<br/>berichtet über ihre forschung in der bewegungsdatenanalyse</li>
-                    <li>// robert koch<br/>erzählt von der <a href="https://www.fossgis-konferenz.de/2018/">fossgis 2018</a></li>
+                    <li>
+                        // thomas hulka
+                        <br />
+                        willkommen beim geo-meetup! wiens und österreichs exzellenz auf dem interdisziplinären gebiet "geo"
+                    </li>
+                    <li>
+                        // wolfgang jörg,
+                        <br />
+                        vienna gis koordinator (stadt wien), stellt uns den wichtigsten öffentlichen geodatendienst vor,{' '}
+                        <a href="https://basemap.at/">basemap.at</a>
+                    </li>
+                    <li>
+                        // anita graser
+                        <br />
+                        berichtet über ihre forschung in der bewegungsdatenanalyse
+                    </li>
+                    <li>
+                        // robert koch
+                        <br />
+                        erzählt von der <a href="https://www.fossgis-konferenz.de/2018/">fossgis 2018</a>
+                    </li>
                 </ul>
             </section>
         </article>
