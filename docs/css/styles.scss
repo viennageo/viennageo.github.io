@@ -1,6 +1,10 @@
 $red: rgb(187, 0, 0);
 $sandy: #e6ded4; // nice light sand brown color
 
+.desktop {
+    display: none; // for now assume mobile
+}
+
 body {
     font-family: 'Roboto Slab';
     font-size: 105%;
@@ -20,7 +24,6 @@ li {
     margin: 0;
     padding: 0;
     line-height: 1;
-    padding: 0;
 }
 ul,
 li,
@@ -30,11 +33,20 @@ p {
 }
 
 h1 {
-    //margin-top: 1.5rem;
-    //margin-bottom: 0.5rem;
-    font-size: 170%;
-    //background: lightseagreen;
-    //  text-align: center;
+    font-size: 250%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #ba0000;
+    color: #222;
+}
+
+.themen {
+    margin: 0.5em 4ch;
+}
+
+.fa-envelope {
+    width: 25px;
 }
 
 h2 {
@@ -42,96 +54,7 @@ h2 {
 }
 
 div.logo {
-    //padding-top: 1.5rem;
-    //padding-bottom: 1rem;
     text-align: center;
-}
-
-.desktop {
-    display: none; // for now assume mobile
-}
-
-p.aboutlink {
-    text-align: right;
-    margin-top: 1rem;
-}
-
-.next {
-    color: $red;
-    font-weight: bold;
-}
-
-.tag {
-    display: block;
-    line-height: 1.5;
-    padding: 0 8px;
-}
-
-summary {
-    padding-top: 0.25em;
-    font-style: italic;
-}
-.date-location {
-    text-align: right;
-    margin-bottom: 0.5rem;
-}
-time {
-    color: $red;
-    //font-size: small;
-}
-address {
-    display: inline;
-    font-style: normal;
-    text-align: right;
-    // background: #555;
-    // color: #fff;
-    // border-radius: 3px;
-    // padding: 0 2px;
-}
-
-section {
-    padding: 1rem 8px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-li::first-line {
-    font-weight: bold;
-}
-
-.edelsbrunner {
-    display: none;
-}
-img {
-    width: 100%;
-    margin: 0.5rem 0;
-}
-a {
-    color: navy;
-}
-
-.placequestionmark {
-    //margin: 2rem 0 1rem 0;
-    position: relative; // stacking context
-    text-align: center;
-    svg {
-        max-width: 200px;
-    }
-    div {
-        position: absolute;
-        top: -70px;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        font-weight: bold;
-        display: grid;
-        color: white;
-        place-content: center;
-        font-family: times;
-        font-size: 250px;
-    }
 }
 
 .twitter,
@@ -139,11 +62,8 @@ a {
     text-align: right;
 }
 
-.fa-envelope {
-    width: 28px;
-}
-
-.mail a {
+.mail {
+    margin-top: 1em;
     span {
         padding: 9px;
         position: relative;
@@ -168,10 +88,6 @@ a {
     text-decoration: none;
 }
 
-.twitter-btn:hover {
-    //text-decoration: none;
-}
-
 .twitter-btn i {
     width: 21px;
     height: 16px;
@@ -190,20 +106,82 @@ a {
     white-space: nowrap;
 }
 
-section:nth-child(2n + 1) {
-    background: #e6ded4;
-}
-img + p {
-    margin-top: 0;
+.next {
+    color: $red;
+    font-weight: bold;
 }
 
-body{
-  //background-color: green;
+summary {
+    // meetup topic
+    padding-top: 0.25em;
+    font-style: italic;
 }
 
-// html {
-//     scroll-snap-type: y proximity;
-// }
+.date-location {
+    text-align: right;
+    margin-bottom: 0.5rem;
+}
+
+time {
+    color: $red;
+    //font-size: small;
+}
+
+address {
+    display: inline;
+    font-style: normal;
+    text-align: right;
+}
+
 section {
-    scroll-snap-align: start;
+    padding: 1rem 8px;
+}
+section:nth-child(2n + 1) {
+  background: #e6ded4;
+}
+
+ul {
+    // we use lists as semantic tags not for their ugly layout
+    list-style: none;
+    padding: 0;
+}
+li::first-line {
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+a {
+    color: #5b0069;
+}
+
+.placequestionmark {
+    position: relative; // stacking context for ?
+    text-align: center;
+    svg {
+        max-width: 200px;
+    }
+    div {
+        // extern
+        position: absolute;
+        top: -70px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        // intern
+        display: grid;
+        place-content: center;
+        // look
+        font-family: times;
+        font-size: 250px;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+img + p {
+    margin-top: 0; // yes, this is good to center the image vertically
 }
