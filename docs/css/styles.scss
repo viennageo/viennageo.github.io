@@ -15,15 +15,24 @@ h2,
 h3,
 h4,
 h5,
-p {
+p,
+summary,
+ul,
+li {
     margin: 0;
     padding: 0;
     line-height: 1;
-    padding: 0 8px;
+    padding: 0;
 }
+ul,
+li,
 p {
     line-height: 1.5;
     margin-top: 0.5em;
+}
+summary {
+    padding-top: 0.5em;
+    font-style: italic;
 }
 
 h1 {
@@ -37,7 +46,7 @@ h1 {
 h2 {
     //background: lightsalmon;
     //  text-align: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 div.logo {
@@ -52,6 +61,7 @@ div.logo {
 
 p.aboutlink {
     text-align: right;
+    margin-top: 1rem;
 }
 
 .next {
@@ -61,7 +71,8 @@ p.aboutlink {
 
 .tag {
     display: block;
-    margin-left: 4ch;
+    line-height: 1.5;
+    padding: 0 8px;
 }
 
 time {
@@ -76,7 +87,7 @@ h2 {
 }
 
 section {
-    padding: 1rem 1ch;
+    padding: 1rem 8px;
 }
 
 section:nth-child(1) {
@@ -84,9 +95,26 @@ section:nth-child(1) {
 }
 
 section:nth-child(2) {
-    background: lightsalmon;
+    //background: lightsalmon;
 }
 
 section:nth-child(3) {
-    background: lightgoldenrodyellow;
+    background: #e6ded4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+li::first-line {
+    font-weight: bold;
+}
+
+.edelsbrunner {
+    display: none;
+}
+img {
+    width: 100%;
+    margin: 1rem 0;
 }
