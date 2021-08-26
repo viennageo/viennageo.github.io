@@ -49,6 +49,7 @@ export let MainPage = () => {
       </section>
       <section>
         <h1>bisherige treffen</h1>
+
         <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles & sotm" location="donaucity-treff" />
         <ul>
           <li>
@@ -65,6 +66,7 @@ export let MainPage = () => {
                         berichtet vom mapathon der ärzte ohne grenzen und gibt einen auszug aus der aktuellen osm wochennotiz
                     </li>
         </ul>
+
         <MeetupHeader title="viennageo #5" date="29.10.2019" topic="vector tiles" location="donaucity-treff" />
         <ul>
           <li>
@@ -83,6 +85,7 @@ export let MainPage = () => {
                         erläutert die darstellung im web mit postgis + tegola sowie mit mbtiles + tileserver-gl
                     </li>
         </ul>
+
         <MeetupHeader title="viennageo #4" date="20.3.2019" topic="alles geo!" location="donaucity-treff" />
         <p>zur krönung der ballsaison treffen uns wieder im donau city treff und danken für ein buntes programm:</p>
         <ul>
@@ -107,6 +110,7 @@ export let MainPage = () => {
                         hirter, murauer und wasser
                     </li>
         </ul>
+
         <MeetupHeader
           title="herbert edelsbrunner *"
           date="15.11.2018"
@@ -125,12 +129,23 @@ export let MainPage = () => {
           t. waterman award 1991 - http://pub.ist.ac.at/~edels/ - https://en.wikipedia.org/wiki/Herbert_Edelsbrunner research
           papers at http://pub.ist.ac.at/~edels/Papers/ the meetup is in english this time
                 </div>
-        <MeetupHeader title="viennageo #3" date="19.9.2018" topic="????????" location="dc-treff" />
+
+        <MeetupHeader title="viennageo #3" date="19.9.2018" topic="data science + osm" location="dc-treff" />
+        <img src="/img/dctreff.jpg" />
+        <p>
+          internationals: we held this meetup in German so far. if there is demand we might switch to English.
+        </p>
+        <p>
+          wir treffen uns wieder um 18:00 im donau city treff (direkt neben u1 alte donau) und können auf der terrasse fachlich plaudern - zb über
+        </p>
         <ul>
-          <li>analyse verkehrsnetzgeometrie</li>
-          <li>osm datenmodell</li>
-          <li>sotm 2018 milano</li>
+          <li>analyse verkehrsnetzgeometrie<br />
+            <i>philipp gintensdorfer</i> präsentiert seine <a href="sicheres-verkehrswegemuster.pdf">diplomarbeit</a> über die "analyse der verkehrsnetzgeometrie im hinblick auf verkehrssicherheit"
+          </li>
+          <li>osm datenmodell<br /><i>stefan tiran</i> erläutert das openstreetmap datenmodell</li>
+          <li>sotm 2018<br /><i>thomas hulka</i> berichtet über die state of the map in <a href="https://2018.stateofthemap.org/">mailand</a></li>
         </ul>
+
         <MeetupHeader title="viennageo #2" date="4.6.2018" topic="linien und räume" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
         <ul>
@@ -146,6 +161,7 @@ export let MainPage = () => {
           </li>
           <li>erfrischungsgetränke<br />auf der terrasse</li>
         </ul>
+
         <MeetupHeader title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" />
         <img src="/img/meetup1-anita-graser.jpg" />
         <ul>
@@ -155,6 +171,7 @@ export let MainPage = () => {
           <li>// fossgis 2018<br /><i>robert koch</i>, entwickler von <a href="https://www.osmhydrant.org/">osmhydrant</a> erzählt über die <a href="https://www.fossgis-konferenz.de/2018/">fossgis 2018</a>
           </li>
         </ul>
+
       </section>
     </article>
   )
