@@ -43,7 +43,7 @@ export let MainPage = () => {
         <br />
         <Tags>openstreetmap open-geodata gis kartografie geodatenanalyse computational-geometry</Tags>
 
-        <p>um über die treffen informiert zu werden folgt uns auf twitter oder schreibt ein email um in den vertail aufgenommen zu werden:</p>
+        <p>um über die treffen informiert zu werden folgt uns auf twitter oder schreibt ein email um in den verteiler aufgenommen zu werden:</p>
         <br />
         <div class="twitter">
           <a target="_blank" class="twitter-btn" title="follow @viennageomeetup on twitter" href="https://twitter.com/viennageomeetup">
@@ -79,10 +79,7 @@ export let MainPage = () => {
         <MeetupHeader title="viennageo #7" topic="frei und bewegt" date="" location="" />
         <PlaceQuestionMark />
 
-        <p>wir machen weiter <span class="next">sobald persönliche treffen wieder gut möglich sind</span>. dieses treffen ist solange verschoben.</p>
-        <p>
-        so war und ist unser nächstes treffen geplant und die vorträge sind nach wie vor aktuell, nur die entscheidung bei dancing stars ist gefallen - michaela kirchgasser, wir gratulieren.</p>
-
+        <p>wir machen weiter <span class="next">sobald persönliche treffen wieder gut möglich sind</span>. dieses treffen ist solange verschoben. so war es geplant:</p>
         <p>die wiener geo community trifft sich wieder im donau city treff. passend zur soeben gestarteten dancing stars saison, unsere impulsvorträge:</p>
         <ul>
           <li>// frei<br /><i>stephan bösch-plepelits</i> erläutert <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">wikidata</a></li>
@@ -90,6 +87,7 @@ export let MainPage = () => {
           in diesem repository ist ein link zu einem online notebook auf dem movingpandas ausprobiert werden kann.</li>
           <li>// ausklang<br /> bei fachlichem austausch und gemütlichkeit</li>
         </ul>
+        <p>die vorträge sind nach wie vor aktuell, nur die entscheidung bei dancing stars ist gefallen, wir gratulieren michaela kirchgasser.</p>
 
         <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
