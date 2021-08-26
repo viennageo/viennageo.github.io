@@ -21,11 +21,11 @@ let MeetupHeader = ({ title, date, topic, location }) => (
 
 let PlaceQuestionMark = () =>
   <div class="placequestionmark">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 365 560" enable-background="new 0 0 365 560" width="100%" height="100%">
-        <g>
-          <path fill="#bb0000" d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9 C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z " />
-        </g>
-      </svg>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 365 560" enable-background="new 0 0 365 560" width="100%" height="100%">
+      <g>
+        <path fill="#bb0000" d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9 C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z " />
+      </g>
+    </svg>
     <div>?</div>
   </div>
 
@@ -47,7 +47,7 @@ export let MainPage = () => {
           <a href="about.html">mehr darüber</a>
         </p>
       </section>
-      <section>
+      {/* <section>
         <h1>das nächste treffen</h1>
         <p>
           veranstalten wir <span class="next">sobald persönliche treffen wieder gut möglich sind.</span>
@@ -56,17 +56,22 @@ export let MainPage = () => {
           alle sind willkommen, eintritt ist frei. wir freuen uns auch über erfahrungsberichte, forschungs&shy;berichte, neues aus
           der verwaltung - alles was mit geo zu tun hat. vorschläge an viennageo@gmx.at
                 </p>
-      </section>
+      </section> */}
       <section>
-        <h1>bisherige treffen</h1>
 
-        <MeetupHeader title="viennageo #7" date="irgendwann" topic="frei und bewegt" location="irgendwo" />
+        <MeetupHeader title="viennageo #7" topic="frei und bewegt" date="irgendwann" location="irgendwo + " />
         <PlaceQuestionMark />
-        <p>wenns wieder geht</p>
+
+        <p>wir machen weiter <span class="next">sobald persönliche treffen wieder gut möglich sind.</span>.
+        dieses treffen ist solange verschoben. so war es geplant:
+        </p>
+
+        <p>die wiener geo community trifft sich wieder im donau city treff. passend zur soeben gestarteten dancing stars saison, unsere impulsvorträge:</p>
         <ul>
-          <li>111</li>
-          <li>222</li>
-          <li>333</li>
+          <li>// frei<br /><i>stephan bösch-plepelits</i> erläutert <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">wikidata</a></li>
+          <li>// bewegt<br /><i>anita graser</i> über die analyse von bewegten objekten mit <a href="https://github.com/anitagraser/movingpandas">movingpandas</a>.
+          in diesem repository ist ein link zu einem online notebook auf dem movingpandas ausprobiert werden kann.</li>
+          <li>ausklang bei fachlichem austausch und gemütlichkeit</li>
         </ul>
 
         <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" />
