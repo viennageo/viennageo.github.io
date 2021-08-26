@@ -79,15 +79,15 @@ export let MainPage = () => {
         <MeetupHeader title="viennageo #7" topic="frei und bewegt" date="" location="" />
         <PlaceQuestionMark />
 
-        <p>wir machen weiter <span class="next">sobald persönliche treffen wieder gut möglich sind</span>. dieses treffen ist solange verschoben. so war es geplant:</p>
-        <p>die wiener geo community trifft sich wieder im donau city treff. passend zur soeben gestarteten dancing stars saison, unsere impulsvorträge:</p>
+        <p>wir machen weiter <span class="next">sobald persönliche treffen wieder gut möglich sind</span>. so war unser nächstes treffen geplant:</p>
+        <p>die wiener geo community trifft sich wieder im donau city treff. passend zur soeben gestarteten dancing stars saison diese auftritte:</p>
         <ul>
           <li>// frei<br /><i>stephan bösch-plepelits</i> erläutert <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">wikidata</a></li>
           <li>// bewegt<br /><i>anita graser</i> über die analyse von bewegten objekten mit <a href="https://github.com/anitagraser/movingpandas">movingpandas</a>.
           in diesem repository ist ein link zu einem online notebook auf dem movingpandas ausprobiert werden kann.</li>
           <li>// ausklang<br /> bei fachlichem austausch und gemütlichkeit</li>
         </ul>
-        <p>die vorträge sind nach wie vor aktuell, nur die entscheidung bei dancing stars ist gefallen, wir gratulieren michaela kirchgasser.</p>
+        <p>die themen bleiben spannend und aktuell, auch wenn die entscheidung bei dancing stars zwischenzeitig gefallen ist. wir gratulieren michaela kirchgasser.</p>
 
         <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
