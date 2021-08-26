@@ -13,8 +13,7 @@ let MeetupHeader = ({ title, date, topic, location }) => (
     <h2>{title}</h2>
     <summary>{topic}</summary>
     <div class="date-location">
-      <address>{location}</address>
-      <time>{date}</time>
+      <address>{location}</address>&nbsp;<time>{date}</time>
     </div>
   </Fragment>
 )
@@ -43,9 +42,27 @@ export let MainPage = () => {
         <p>die wiener geo community trifft sich zum fachlichen austausch über themen wie</p>
         <br />
         <Tags>openstreetmap open-geodata gis kartografie geodatenanalyse computational-geometry</Tags>
-        <p class="aboutlink">
+
+        <p>um über die treffen informiert zu werden folgt uns auf twitter oder schreibt ein email um in den vertail aufgenommen zu werden:</p>
+        <br />
+        <div class="twitter">
+          <a target="_blank" class="twitter-btn" title="follow @viennageomeetup on twitter" href="https://twitter.com/viennageomeetup">
+            <i></i><span class="label">@viennageomeetup</span>
+          </a>
+        </div>
+        <br />
+        <div class="mail">
+          <a href="mailto://viennageo@gmx.at">
+            <span>email</span>
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="#333" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+            </svg>
+          </a>
+        </div>
+
+        {/* <p class="aboutlink">
           <a href="about.html">mehr darüber</a>
-        </p>
+        </p> */}
       </section>
       {/* <section>
         <h1>das nächste treffen</h1>
@@ -59,19 +76,19 @@ export let MainPage = () => {
       </section> */}
       <section>
 
-        <MeetupHeader title="viennageo #7" topic="frei und bewegt" date="irgendwann" location="irgendwo + " />
+        <MeetupHeader title="viennageo #7" topic="frei und bewegt" date="" location="" />
         <PlaceQuestionMark />
 
-        <p>wir machen weiter <span class="next">sobald persönliche treffen wieder gut möglich sind.</span>.
-        dieses treffen ist solange verschoben. so war es geplant:
-        </p>
+        <p>wir machen weiter <span class="next">sobald persönliche treffen wieder gut möglich sind</span>. dieses treffen ist solange verschoben.</p>
+        <p>
+        so war und ist unser nächstes treffen geplant und die vorträge sind nach wie vor aktuell, nur die entscheidung bei dancing stars ist gefallen - michaela kirchgasser, wir gratulieren.</p>
 
         <p>die wiener geo community trifft sich wieder im donau city treff. passend zur soeben gestarteten dancing stars saison, unsere impulsvorträge:</p>
         <ul>
           <li>// frei<br /><i>stephan bösch-plepelits</i> erläutert <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">wikidata</a></li>
           <li>// bewegt<br /><i>anita graser</i> über die analyse von bewegten objekten mit <a href="https://github.com/anitagraser/movingpandas">movingpandas</a>.
           in diesem repository ist ein link zu einem online notebook auf dem movingpandas ausprobiert werden kann.</li>
-          <li>ausklang bei fachlichem austausch und gemütlichkeit</li>
+          <li>// ausklang<br /> bei fachlichem austausch und gemütlichkeit</li>
         </ul>
 
         <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" />
@@ -108,23 +125,28 @@ export let MainPage = () => {
         </ul>
 
         <MeetupHeader
-          title="herbert edelsbrunner *"
+          title="herbert edelsbrunner*"
           date="15.11.2018"
           topic="computational geometry + topology"
           location="tu wien"
         />
-        <div class="edelsbrunner">
+        <img src="/img/edelsbrunner.jpg" />
+        <p>
           we are delighted to announce that professor herbert edelsbrunner (institute of science and technology austria) will
           visit our group on november 15th! computational geometry is the foundation of our doing. we are very lucky that one of
-          the researchers who shaped the research field is back in austria and generously takes the time to visit us. professor
-          edelsbrunner will tell us about his involvement in the evolution of computational geometry and the younger research
+          the researchers who shaped the research field is back in austria and generously takes the time to visit us. herbert
+          will tell us about his involvement in the evolution of computational geometry and the younger research
           field computational topology, he co-founded. starting from the history of academia he will address the related industry
-          and the recent application of computational topology to data analysis. this will be interactive - bring your topics +
-          questions. about professor edelsbrunner - professor at the institute of science and technology austria - worldwide
-          leading researcher in computational geometry and topology - founder of raindrop geomagic - wittgensteinpreis 2018 - alan
-          t. waterman award 1991 - http://pub.ist.ac.at/~edels/ - https://en.wikipedia.org/wiki/Herbert_Edelsbrunner research
-          papers at http://pub.ist.ac.at/~edels/Papers/ the meetup is in english this time
-        </div>
+          and the recent application of computational topology to data analysis.</p>
+        <p>this will be interactive - bring your topics + questions.</p>
+        <p>about professor edelsbrunner - professor at the institute of science and technology austria - worldwide
+        leading researcher in computational geometry and topology - founder of raindrop geomagic - wittgensteinpreis 2018 - alan
+        t. waterman award 1991 - http://pub.ist.ac.at/~edels/ - https://en.wikipedia.org/wiki/Herbert_Edelsbrunner research
+        papers at http://pub.ist.ac.at/~edels/Papers/
+          </p>
+        <p>
+          herbert is austrian. his academic live however was and is in english, so he prefers to talk in english with us.
+          </p>
 
         <MeetupHeader title="viennageo #3" date="19.9.2018" topic="data science + osm" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
@@ -163,6 +185,7 @@ export let MainPage = () => {
         </ul>
 
       </section>
+
     </article>
   )
 }
