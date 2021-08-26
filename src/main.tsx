@@ -18,6 +18,12 @@ let MeetupHeader = ({ title, date, topic, location }) => (
   </Fragment>
 )
 
+let Meetup = (attrs) =>
+  <section>
+    <MeetupHeader {...attrs} />
+    {attrs.children}
+  </section>
+
 let PlaceQuestionMark = () =>
   <div class="placequestionmark">
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 365 560" enable-background="new 0 0 365 560" width="100%" height="100%">
@@ -59,21 +65,8 @@ export let MainPage = () => {
             </svg>
           </a>
         </div>
-
-        {/* <p class="aboutlink">
-          <a href="about.html">mehr darüber</a>
-        </p> */}
       </section>
-      {/* <section>
-        <h1>das nächste treffen</h1>
-        <p>
-          veranstalten wir <span class="next">sobald persönliche treffen wieder gut möglich sind.</span>
-        </p>
-        <p>
-          alle sind willkommen, eintritt ist frei. wir freuen uns auch über erfahrungsberichte, forschungs&shy;berichte, neues aus
-          der verwaltung - alles was mit geo zu tun hat. vorschläge an viennageo@gmx.at
-                </p>
-      </section> */}
+
       <section>
 
         <MeetupHeader title="viennageo #7" topic="frei und bewegt" date="" location="" />
@@ -88,7 +81,9 @@ export let MainPage = () => {
           <li>// ausklang<br /> bei fachlichem austausch und gemütlichkeit</li>
         </ul>
         <p>die themen bleiben spannend und aktuell, auch wenn die entscheidung bei dancing stars zwischenzeitig gefallen ist. wir gratulieren michaela kirchgasser.</p>
+      </section>
 
+      <section>
         <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
         <p>
@@ -101,7 +96,9 @@ export let MainPage = () => {
           <li>// mapathon der ärzte ohne grenzen<br />andreas voit berichtet vom mapathon und gibt einen auszug aus der aktuellen osm wochennotiz</li>
           <li>fachlicher austausch<br />tee, glühwein</li>
         </ul>
+      </section>
 
+      <section>
         <MeetupHeader title="viennageo #5" date="29.10.2019" topic="vector tiles" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
         technik in theorie und praxis diesmal. die wohl wichtigste neuerung seit es karten im web gibt: vector tiles.
@@ -111,7 +108,9 @@ export let MainPage = () => {
           <li>// postgis, tegola, mbtiles + tileserver-gl<br />erläutert <i>jürgen hahn</i> von <a href="https://www.gisolutions.at">gisolutions</a>.</li>
           <li>fachlicher austausch<br />tee, kaffee und kuchen</li>
         </ul>
+      </section>
 
+      <section>
         <MeetupHeader title="viennageo #4" date="20.3.2019" topic="alles geo!" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
         <p>zur krönung der ballsaison treffen wir uns wieder im donau city treff und danken für ein buntes programm:</p>
@@ -121,7 +120,9 @@ export let MainPage = () => {
           <li>// virtual reality mit openstreetmap<br /><i>robert kaiser</i>, osm veteran und mozilla involvierter zeigt uns "vr map".</li>
           <li>fachlicher austausch<br />hirter, murauer und wasser</li>
         </ul>
+      </section>
 
+      <section>
         <MeetupHeader
           title="herbert edelsbrunner*"
           date="15.11.2018"
@@ -145,7 +146,9 @@ export let MainPage = () => {
         <p>
           herbert is austrian. his academic live however was and is in english, so he prefers to talk in english with us.
           </p>
+      </section>
 
+      <section>
         <MeetupHeader title="viennageo #3" date="19.9.2018" topic="data science + osm" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
         <p>internationals: we held this meetup in German so far. if there is demand we might switch to English.</p>
@@ -155,7 +158,9 @@ export let MainPage = () => {
           <li>// osm datenmodell<br /><i>stefan tiran</i> erläutert das openstreetmap datenmodell</li>
           <li>// sotm 2018<br /><i>thomas hulka</i> berichtet über die state of the map in <a href="https://2018.stateofthemap.org/">mailand</a></li>
         </ul>
+      </section>
 
+      <section>
         <MeetupHeader title="viennageo #2" date="4.6.2018" topic="linien und räume" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
         <ul>
@@ -171,7 +176,9 @@ export let MainPage = () => {
           </li>
           <li>erfrischungsgetränke<br />auf der terrasse</li>
         </ul>
+      </section>
 
+      <section>
         <MeetupHeader title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" />
         <img src="/img/meetup1-anita-graser.jpg" />
         <ul>
@@ -181,7 +188,6 @@ export let MainPage = () => {
           <li>// fossgis 2018<br /><i>robert koch</i>, entwickler von <a href="https://www.osmhydrant.org/">osmhydrant</a> erzählt über die <a href="https://www.fossgis-konferenz.de/2018/">fossgis 2018</a>.</li>
           <li>wiener gemütlichkeit<br />und fachlicher austausch im schönen mq.</li>
         </ul>
-
       </section>
 
     </article>

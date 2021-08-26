@@ -197,3 +197,7 @@ a {
     padding: 0 7px 0 29px;
     white-space: nowrap;
 }
+
+section:nth-child(2n+1) {
+    background: #e6ded4;
+}
