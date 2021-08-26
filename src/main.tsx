@@ -134,33 +134,18 @@ export let MainPage = () => {
         <MeetupHeader title="viennageo #2" date="4.6.2018" topic="linien und räume" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
         <ul>
-          <li>openstreetmap team wien<br />erzählt aktuelles von der lokalen osm community</li>
-          <li>thomas hulka<br />über generalisierung im allgemeinen und von linienzügen</li>
-          <li>michael birsak<br />
-                    (phd student tu wien, institut für computer graphik) präsentiert das paper
-                    <a href="/files/dynamic-path-exploration.pdf">Dynamic Path Exploration on Mobile Devices</a>
-                    über die visualisierung von routen.</li>
-          <li>wien gibt raum<br/>
-          dipl-ing dr lothar eysn (ma 41, stadtvermessung) gibt einblick in das projekt.
+          <li>openstreetmap team wien<br />erzählt über aktuelles aus der lokalen community</li>
+          <li>generalisierung<br />von kartografischen daten. im allgemein und von linienzügen. <i>thomas hulka</i></li>
+          <li>visualisierung von routen<br />
+            <i>michael birsak</i>, phd student tu wien am institut für computer graphik präsentiert das paper
+          &nbsp;<a href="/files/dynamic-path-exploration.pdf">dynamic path exploration on mobile devices</a>&nbsp;
+          über die visualisierung von routen.</li>
+          <li>wien gibt raum<br />
+            <i>dipl-ing dr lothar eysn</i> (ma 41, stadtvermessung) gibt einblick in dieses aktuelle projekt der stadt wien.
+          streetview und vermessung der stadt mit schweizer präzision.
           </li>
-
-
-                    // aktuelles von der lokalen osm community
-#openstreetmap
-
-// zur vereinfachung paralleler linienzüge
-#algorithmen #praxis
-
-// schöne routen statt schnelle routen: forscher michael birsak (phd student tu wien, institut für computer graphik) präsentiert das research paper "Dynamic Path Exploration on Mobile Devices"
-#research #application #routing
-
-// "wien gibt raum". dipl-ing dr lothar eysn (ma 41, stadtvermessung) gibt einblick in das projekt.
-#wien #geodäsie
-
-// erfrischungsgetränke auf der terrasse
-#gemütlich #hirter #murauer #budweiser #paulaner #ottakringer #weinwurm #jurtschitsch #mayer
-
-                </ul>
+          <li>erfrischungsgetränke<br />auf der terrasse</li>
+        </ul>
         <MeetupHeader title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" />
         <img src="/img/meetup1-anita-graser.jpg" />
         <ul>
