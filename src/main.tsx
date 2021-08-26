@@ -67,48 +67,23 @@ export let MainPage = () => {
                     </li>
         </ul>
 
-        <MeetupHeader title="viennageo #5" date="29.10.2019" topic="vector tiles" location="donaucity-treff" />
+        <MeetupHeader title="viennageo #5" date="29.10.2019" topic="vector tiles" location="dc-treff" />
+        <img src="/img/dctreff.jpg" />
+        technik in theorie und praxis diesmal. die wohl wichtigste neuerung seit es karten im web gibt: vector tiles.
         <ul>
-          <li>
-            // markus mayr
-                        <br />
-                        über technologie und standards
-                    </li>
-          <li>
-            // franz gusenbauer
-                        <br />
-                        berichtet seine praxiserfahrungen und
-                    </li>
-          <li>
-            // jürgen hahn
-                        <br />
-                        erläutert die darstellung im web mit postgis + tegola sowie mit mbtiles + tileserver-gl
-                    </li>
+          <li>technologie und standards<br/>präsentiert <i>markus mayr</i>, geoexperte im bev und obmann des osm vereins</li>
+          <li>praxiserfahrungen<br/>beim einsatz in seinem <a href="https://www.igutech.at/">unternehmen</a> schildert <i>franz gusenbauer</i></li>
+          <li>postgis, tegola, mbtiles + tileserver-gl<br/>erläutert <i>jürgen hahn</i> von <a href="https://www.gisolutions.at">gisolutions</a>.</li>
         </ul>
 
-        <MeetupHeader title="viennageo #4" date="20.3.2019" topic="alles geo!" location="donaucity-treff" />
-        <p>zur krönung der ballsaison treffen uns wieder im donau city treff und danken für ein buntes programm:</p>
+        <MeetupHeader title="viennageo #4" date="20.3.2019" topic="alles geo!" location="dc-treff" />
+        <img src="/img/dctreff.jpg" />
+        <p>zur krönung der ballsaison treffen wir uns wieder im donau city treff und danken für ein buntes programm:</p>
         <ul>
-          <li>
-            stephan bösch-plepelits
-                        <br />
-                        workshop overpass - die schnittstelle zu openstreetmap
-                    </li>
-          <li>
-            jakob listabarth
-                        <br />
-                        mapping united nations sustainability goals
-                    </li>
-          <li>
-            robert kaiser
-                        <br />
-                        vr map - virtual reality mit openstreetmap
-                    </li>
-          <li>
-            fachlicher austausch
-                        <br />
-                        hirter, murauer und wasser
-                    </li>
+          <li>workshop overpass<br/><i>stephan bösch-plepelits</i> hält einen workshop zur overpass schnittstelle. <a href="img/plepe-overpass-api.pdf">folien</a></li>
+          <li>mapping united nations sustainability goals<br/><i>jakob listabarth</i> zeigt uns seine visualisierungen zum thema un sustainability goals</li>
+          <li>virtual reality mit openstreetmap<br/><i>robert kaiser</i>, osm veteran und mozilla involvierter zeigt uns "vr map".</li>
+          <li>fachlicher austausch<br />hirter, murauer und wasser</li>
         </ul>
 
         <MeetupHeader
@@ -128,7 +103,7 @@ export let MainPage = () => {
           leading researcher in computational geometry and topology - founder of raindrop geomagic - wittgensteinpreis 2018 - alan
           t. waterman award 1991 - http://pub.ist.ac.at/~edels/ - https://en.wikipedia.org/wiki/Herbert_Edelsbrunner research
           papers at http://pub.ist.ac.at/~edels/Papers/ the meetup is in english this time
-                </div>
+        </div>
 
         <MeetupHeader title="viennageo #3" date="19.9.2018" topic="data science + osm" location="dc-treff" />
         <img src="/img/dctreff.jpg" />
