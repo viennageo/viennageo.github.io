@@ -30,7 +30,7 @@ ul,
 li,
 p {
     line-height: 1.5;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 2rem;
+  letter-spacing: 1px;
 }
 
 div.logo {
@@ -71,17 +71,13 @@ p.aboutlink {
     padding: 0 8px;
 }
 
-h2 {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
 summary {
     padding-top: 0.25em;
     font-style: italic;
 }
 .date-location {
     text-align: right;
+    margin-bottom: 0.5rem;
 }
 time {
     color: $red;
@@ -114,7 +110,7 @@ li::first-line {
 }
 img {
     width: 100%;
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 a {
     color: navy;
@@ -201,3 +197,6 @@ a {
 section:nth-child(2n+1) {
     background: #e6ded4;
 }
+ img + p{
+   margin-top: 0;
+ }
