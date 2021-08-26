@@ -8,7 +8,7 @@ $sandy: #e6ded4; // nice light sand brown color
 body {
     font-family: 'Roboto Slab';
     font-size: 105%;
-    margin-bottom: 4em;
+    margin: 0 0 4em 0;
 }
 
 h1,
@@ -187,4 +187,10 @@ a {
 
 img + p {
     margin-top: 0; // yes, this is good to center the image vertically
+}
+
+.viennageo {
+    img.logo {
+        display: none;
+    }
 }
