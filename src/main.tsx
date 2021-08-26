@@ -190,8 +190,8 @@ export let MainPage = () => {
         </article>
       </Meetup>
 
-      <Meetup title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" width="306" height="230" >
-        <img src="/img/meetup1-anita-graser-small.jpg" />
+      <Meetup title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" >
+        <img src="/img/meetup1-anita-graser-small.jpg" alt="vienna geo meetup" width="306" height="230" />
         <article>
           <ul>
             <li>// willkommen<br />beim geo-meetup! über wiens und österreichs exzellenz auf dem interdisziplinären gebiet "geo" (<i>thomas hulka</i>).</li>
