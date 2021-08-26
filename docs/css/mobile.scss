@@ -8,9 +8,7 @@ $sandy: #e6ded4; // nice light sand brown color
 body {
     font-family: 'Roboto Slab';
     font-size: 105%;
-
-    max-width: 1024px; // responsive
-    margin: auto; // responsive
+    margin-bottom: 4em;
 }
 
 h1,
@@ -53,8 +51,13 @@ h2 {
     letter-spacing: 1px;
 }
 
-div.logo {
-    text-align: center;
+section.logo {
+    div {
+        text-align: center;
+        img {
+            max-width: 350px;
+        }
+    }
 }
 
 .twitter,
@@ -137,7 +140,7 @@ section {
     padding: 1rem 8px;
 }
 section:nth-child(2n + 1) {
-  background: #e6ded4;
+    background: #e6ded4;
 }
 
 ul {
