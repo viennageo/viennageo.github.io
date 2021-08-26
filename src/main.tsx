@@ -67,11 +67,8 @@ export let MainPage = () => {
         </div>
       </section>
 
-      <section>
-
-        <MeetupHeader title="viennageo #7" topic="frei und bewegt" date="" location="" />
+      <Meetup title="viennageo #7" topic="frei und bewegt" date="" location="" >
         <PlaceQuestionMark />
-
         <p>wir machen weiter <span class="next">sobald persönliche treffen wieder gut möglich sind</span>. so war unser nächstes treffen geplant:</p>
         <p>die wiener geo community trifft sich wieder im donau city treff. passend zur soeben gestarteten dancing stars saison diese auftritte:</p>
         <ul>
@@ -81,10 +78,9 @@ export let MainPage = () => {
           <li>// ausklang<br /> bei fachlichem austausch und gemütlichkeit</li>
         </ul>
         <p>die themen bleiben spannend und aktuell, auch wenn die entscheidung bei dancing stars zwischenzeitig gefallen ist. wir gratulieren michaela kirchgasser.</p>
-      </section>
+      </Meetup>
 
-      <section>
-        <MeetupHeader title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" />
+      <Meetup title="viennageo #6" date="9.12.2019" topic="vector tiles finale" location="dc-treff" >
         <img src="/img/dctreff.jpg" />
         <p>
           wir vollenden die vektor trilogie: nach <i>theorie</i> und <i>unternehmens&shy;praxis</i> beim letzten treffen freuen wir uns heute auf
@@ -96,10 +92,9 @@ export let MainPage = () => {
           <li>// mapathon der ärzte ohne grenzen<br />andreas voit berichtet vom mapathon und gibt einen auszug aus der aktuellen osm wochennotiz</li>
           <li>fachlicher austausch<br />tee, glühwein</li>
         </ul>
-      </section>
+      </Meetup>
 
-      <section>
-        <MeetupHeader title="viennageo #5" date="29.10.2019" topic="vector tiles" location="dc-treff" />
+      <Meetup title="viennageo #5" date="29.10.2019" topic="vector tiles" location="dc-treff" >
         <img src="/img/dctreff.jpg" />
         technik in theorie und praxis diesmal. die wohl wichtigste neuerung seit es karten im web gibt: vector tiles.
         <ul>
@@ -108,10 +103,9 @@ export let MainPage = () => {
           <li>// postgis, tegola, mbtiles + tileserver-gl<br />erläutert <i>jürgen hahn</i> von <a href="https://www.gisolutions.at">gisolutions</a>.</li>
           <li>fachlicher austausch<br />tee, kaffee und kuchen</li>
         </ul>
-      </section>
+      </Meetup>
 
-      <section>
-        <MeetupHeader title="viennageo #4" date="20.3.2019" topic="alles geo!" location="dc-treff" />
+      <Meetup title="viennageo #4" date="20.3.2019" topic="alles geo!" location="dc-treff" >
         <img src="/img/dctreff.jpg" />
         <p>zur krönung der ballsaison treffen wir uns wieder im donau city treff und danken für ein buntes programm:</p>
         <ul>
@@ -120,15 +114,14 @@ export let MainPage = () => {
           <li>// virtual reality mit openstreetmap<br /><i>robert kaiser</i>, osm veteran und mozilla involvierter zeigt uns "vr map".</li>
           <li>fachlicher austausch<br />hirter, murauer und wasser</li>
         </ul>
-      </section>
+      </Meetup>
 
-      <section>
-        <MeetupHeader
-          title="herbert edelsbrunner*"
-          date="15.11.2018"
-          topic="computational geometry + topology"
-          location="tu wien"
-        />
+      <Meetup
+        title="herbert edelsbrunner*"
+        date="15.11.2018"
+        topic="computational geometry + topology"
+        location="tu wien"
+      >
         <img src="/img/edelsbrunner.jpg" />
         <p>
           we are delighted to announce that professor herbert edelsbrunner (institute of science and technology austria) will
@@ -146,10 +139,9 @@ export let MainPage = () => {
         <p>
           herbert is austrian. his academic live however was and is in english, so he prefers to talk in english with us.
           </p>
-      </section>
+      </Meetup>
 
-      <section>
-        <MeetupHeader title="viennageo #3" date="19.9.2018" topic="data science + osm" location="dc-treff" />
+      <Meetup title="viennageo #3" date="19.9.2018" topic="data science + osm" location="dc-treff" >
         <img src="/img/dctreff.jpg" />
         <p>internationals: we held this meetup in German so far. if there is demand we might switch to English.</p>
         <p>wir treffen uns wieder um 18:00 im donau city treff (direkt neben u1 alte donau) und können auf der terrasse fachlich plaudern - zb über</p>
@@ -158,10 +150,9 @@ export let MainPage = () => {
           <li>// osm datenmodell<br /><i>stefan tiran</i> erläutert das openstreetmap datenmodell</li>
           <li>// sotm 2018<br /><i>thomas hulka</i> berichtet über die state of the map in <a href="https://2018.stateofthemap.org/">mailand</a></li>
         </ul>
-      </section>
+      </Meetup>
 
-      <section>
-        <MeetupHeader title="viennageo #2" date="4.6.2018" topic="linien und räume" location="dc-treff" />
+      <Meetup title="viennageo #2" date="4.6.2018" topic="linien und räume" location="dc-treff" >
         <img src="/img/dctreff.jpg" />
         <ul>
           <li>// openstreetmap team wien<br />erzählt über aktuelles aus der lokalen community</li>
@@ -176,10 +167,9 @@ export let MainPage = () => {
           </li>
           <li>erfrischungsgetränke<br />auf der terrasse</li>
         </ul>
-      </section>
+      </Meetup>
 
-      <section>
-        <MeetupHeader title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" />
+      <Meetup title="viennageo #1" date="10.4.2018" topic="los gehts!" location="raum d, mq" >
         <img src="/img/meetup1-anita-graser.jpg" />
         <ul>
           <li>// willkommen<br />beim geo-meetup! über wiens und österreichs exzellenz auf dem interdisziplinären gebiet "geo" (<i>thomas hulka</i>).</li>
@@ -188,7 +178,7 @@ export let MainPage = () => {
           <li>// fossgis 2018<br /><i>robert koch</i>, entwickler von <a href="https://www.osmhydrant.org/">osmhydrant</a> erzählt über die <a href="https://www.fossgis-konferenz.de/2018/">fossgis 2018</a>.</li>
           <li>wiener gemütlichkeit<br />und fachlicher austausch im schönen mq.</li>
         </ul>
-      </section>
+      </Meetup>
 
     </article>
   )
