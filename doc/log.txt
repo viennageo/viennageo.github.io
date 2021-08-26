@@ -1,0 +1,36 @@
+//communicate:
+
+1 thema als header
+
+2 future meetup
+
+3 mitmachen - talk
+
+4 past meetups
+
+. . . . . . . . . . . first page
+
+logo
+
+die wiener geo community trifft sich zum fachlichen austausch.
+#openstreetmap #gis #kartografie #opendata #computational-geometry
+mehr ...
+
+nächstes treffen
+wir setzen fort sobald persönliche treffen wieder gut möglich sind
+
+mitmachen
+wir freuen uns über erfahrungsberichte, forschungsberichte, neues aus der verwaltung - alles was mit geo zu tun hat.
+vorschläge bitte an viennageo@gmx.at
+
+bisherige treffen
+1.
+2.
+3.
+4.
+5.
+
+
+. . . . . . . . . . . second page (sticky header with close button or with the logo as home button)
+
+about ...
