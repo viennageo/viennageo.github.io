@@ -144,8 +144,11 @@ export let IndexPage = () => {
           <p>this will be interactive - bring your topics + questions.</p>
           <p>about herbert edelsbrunner:<br />professor at the institute of science and technology austria - worldwide
         leading researcher in computational geometry and topology - founder of raindrop geomagic - wittgensteinpreis 2018 - alan
-        t. waterman award 1991 - <a href="http://pub.ist.ac.at/~edels/">homepage</a> - <a href="https://en.wikipedia.org/wiki/Herbert_Edelsbrunner">wikipedia</a> -
-        <a href="http://pub.ist.ac.at/~edels/Papers/">research papers</a>
+        t. waterman award 1991</p>
+          <p>
+            <a href="http://pub.ist.ac.at/~edels/">homepage</a> -&nbsp;
+            <a href="https://en.wikipedia.org/wiki/Herbert_Edelsbrunner">wikipedia</a> -&nbsp;
+            <a href="http://pub.ist.ac.at/~edels/Papers/">research papers</a>
           </p>
           <p>
             herbert is austrian. his academic live however was and is in english, so he prefers to talk in english with us.
