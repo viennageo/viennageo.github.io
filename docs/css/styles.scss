@@ -212,9 +212,8 @@ li::first-line {
 }
 
 img {
-    width: 100%;
     margin: 0.5rem 0;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 a {
