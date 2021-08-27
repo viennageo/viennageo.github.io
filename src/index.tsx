@@ -30,15 +30,9 @@ export let IndexPage = () => {
   return (
     <main>
 
-      <section class="logo">
-        <div>
-          <img src="/img/viennageo-logo_250px.png" alt="viennageo logo" width="250" height="250" />
-        </div>
-      </section>
-
-      <section class="viennageo">
+      <section class="head">
         <h1>vienna geo</h1>
-        <div class="viennageo-1">
+        <div class="head-1">
           <p>die wiener geo community trifft sich zum fachlichen austausch über themen wie</p>
           <div class="themen">
             #gis<br />
@@ -49,7 +43,7 @@ export let IndexPage = () => {
           #computational-geometry
           </div>
         </div>
-        <div class="viennageo-2">
+        <div class="head-2">
           <p>um über die treffen informiert zu werden folgt uns auf twitter oder schreibt ein email um in den verteiler aufgenommen zu werden:</p>
           <br />
           <div class="twitter">
@@ -67,7 +61,9 @@ export let IndexPage = () => {
             </a>
           </div>
         </div>
-        <img class="logo" src="/img/viennageo-logo_250px.png" alt="vienna geo logo" width="250" height="250" />
+        <div class="logo">
+          <img class="logo" src="/img/viennageo-logo_250px.png" alt="vienna geo logo" width="250" height="250" />
+        </div>
       </section>
 
       <Meetup title="viennageo #7" topic="frei und bewegt" date="" location="" >

@@ -187,7 +187,6 @@ summary {
 
 time {
     color: $red;
-    //font-size: small;
 }
 
 address {
@@ -199,12 +198,12 @@ address {
 section {
     padding: 1rem 8px;
 }
-section:nth-child(2n + 1) {
+section:nth-child(2n) {
     background: #e6ded4;
 }
 
 ul {
-    // we use lists as semantic tags not for their ugly layout
+    // we use lists as semantic tags not for their list-styled layout
     list-style: none;
     padding: 0;
 }
@@ -247,12 +246,30 @@ a {
 }
 
 img + p {
-    margin-top: 0; // yes, this is good to center the image vertically
+    margin-top: 0; // yes, this is good to center the meetup-image vertically
 }
 
-.viennageo {
-    img.logo {
-        display: none;
+section.head {
+    display: grid;
+    grid-template-areas: 'a' 'b' 'c' 'd';
+
+    div.logo {
+        grid-area: a;
+        background: $sandy;
+        margin: -18px;
+        margin-bottom: 0.5em;
+    }
+    h1 {
+        grid-area: b;
+    }
+    .head-1 {
+        grid-area: c;
+    }
+    .head-2 {
+        grid-area: d;
+    }
+    img {
+        object-fit: contain;
     }
 }
 
@@ -266,7 +283,7 @@ img + p {
         font-size: 115%;
     }
 
-    .viennageo {
+    .head {
         img.logo {
             display: unset;
             width: unset;
@@ -310,7 +327,6 @@ img + p {
     }
 
     .placequestionmark {
-        //margin-right: 8ch;
         position: relative;
         top: -2rem;
         left: -1rem;
@@ -320,30 +336,45 @@ img + p {
         display: none;
     }
 
-    section.viennageo {
+    section.head {
         display: grid;
-        gap: 4ch;
-        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2ch;
+        grid-template-columns: 1fr 2fr 2fr;
         grid-template-areas:
             'head head head'
-            'themen contact _';
-    }
+            'logo themen contact';
 
-    h1 {
-        grid-area: head;
-    }
+        h1 {
+            grid-area: head;
+            font-size: 300%;
+        }
 
-    .viennageo-1 {
-        grid-area: themen;
-    }
-    .viennageo-2 {
-        grid-area: contact;
-        align-self: end;
-    }
+        .head-1 {
+            grid-area: themen;
+        }
+        .head-2 {
+            grid-area: contact;
+        }
 
-    .themen {
-        font-weight: bold;
-        margin: 0.5em 0ch;
-        line-height: 1.5;
+        .themen {
+            font-weight: bold;
+            margin: 0.5em 0ch;
+            line-height: 1.5;
+        }
+
+        div.logo {
+            // clear frm mobile
+            background: unset;
+            margin: unset;
+            margin-bottom: unset;
+
+            grid-area: logo;
+            object-fit: contain;
+            padding: 2ch;
+            img {
+                width: 100%;
+                height: unset;
+            }
+        }
     }
 }
