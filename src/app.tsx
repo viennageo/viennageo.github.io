@@ -1,7 +1,7 @@
 import { h } from 'preact'
 import { About } from './about'
 import { render } from './base'
-import { MainPage } from './main'
+import { IndexPage } from './index'
 
-render(() => <MainPage />, "index.html", "main")
+render(() => <IndexPage />, "index.html", "main")
 render(() => <About />, "about.html", "main")

@@ -1,3 +1,14 @@
+27.8.
+// improve header visual + implementation
++ define the 2 grid styles
++ put all elements into a grid and adapt that grid
++ tried the above but old os better, just reorder logo in the desktop version of the head grid
+
+
+
+26.8.
+first version published
+
 //communicate:
 
 1 thema als header

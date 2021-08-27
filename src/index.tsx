@@ -26,7 +26,7 @@ let PlaceQuestionMark = () =>
     <div>?</div>
   </div>
 
-export let MainPage = () => {
+export let IndexPage = () => {
   return (
     <main>
 
