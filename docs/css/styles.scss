@@ -276,7 +276,7 @@ section.head {
     body {
         background-color: $sandy;
         max-width: 1024px;
-        padding-top: 4em;
+        //padding-top: 4em;
         margin-left: auto;
         margin-right: auto;
         font-size: 115%;
@@ -325,6 +325,10 @@ section.head {
         }
     }
 
+    section.head{
+      padding: 2ch
+    }
+
     .placequestionmark {
         position: relative;
         top: -2rem;
@@ -337,7 +341,7 @@ section.head {
 
     section.head {
         display: grid;
-        gap: 2ch;
+        gap: 3ch;
         grid-template-columns: 1fr 2fr 2fr;
         grid-template-areas:
             'head head head'
