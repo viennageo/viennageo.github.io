@@ -225,7 +225,7 @@ a {
     text-align: center;
     svg {
         max-width: 200px;
-        opacity: .8;
+        opacity: 0.8;
     }
     div {
         // extern
@@ -273,14 +273,23 @@ section.head {
     }
 }
 
+/////////////////////////// desktop ////////////////////////////////////////////
+
 @media all and (min-width: 780px) {
     body {
-        background-color: $sandy;
+        background-color: white;
         max-width: 1024px;
         //padding-top: 4em;
         margin-left: auto;
         margin-right: auto;
         font-size: 115%;
+        margin-bottom: 0; // goes into main-padding here
+    }
+
+    main {
+        background: $sandy;
+        padding: 0 2ch;
+        padding-bottom: 4em;
     }
 
     .head {
@@ -326,8 +335,8 @@ section.head {
         }
     }
 
-    section.head{
-      padding: 2ch
+    section.head {
+        padding: 2ch;
     }
 
     .placequestionmark {
