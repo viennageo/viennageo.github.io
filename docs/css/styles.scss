@@ -287,9 +287,22 @@ section.head {
     }
 
     main {
+        position: relative; // stacking context
         background: $sandy;
         padding: 0 2ch;
         padding-bottom: 4em;
+    }
+
+    picture {
+      background: url(/img/wien.gif) repeat;
+      background-position: -650px -350px;
+      background-size: 2048px 1945px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: .04;
     }
 
     .head {

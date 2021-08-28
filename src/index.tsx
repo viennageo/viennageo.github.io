@@ -29,7 +29,7 @@ let PlaceQuestionMark = () =>
 export let IndexPage = () => {
   return (
     <main>
-
+      <picture/>
       <section class="head">
         <h1>vienna geo</h1>
         <div class="head-1">
