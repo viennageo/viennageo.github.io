@@ -19,5 +19,11 @@
         "vueIndentScriptAndStyle": false,
         "filepath": "h:\\dev\\viennageo.github.io\\src\\main.tsx",
         "parser": "typescript"
+    },
+    "workbench.colorCustomizations": {
+        "[Flatland Monokai]": {
+            "titleBar.activeBackground": "#cc3642cc",
+            "titleBar.activeForeground": "#ffffff"
+        }
     }
 }
